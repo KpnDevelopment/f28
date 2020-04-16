@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+
+    <item
+        android:id="@+id/assignment"
+        android:title="@string/nvassignment"
+        android:icon="@drawable/assignment0"/>
+    <item
+        android:id="@+id/exam"
+        android:title="@string/nvexam"
+        android:icon="@drawable/examicorn0"/>
+    <item
+        android:id="@+id/academy"
+        android:title="@string/nvacademy"
+        android:icon="@drawable/accadamyicorn0"/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="@string/nvprofile"
+        android:icon="@drawable/student0"/>
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        android:icon="@drawable/settings"/>
+</menu>
