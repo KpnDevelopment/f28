@@ -51,4 +51,11 @@
     <string name="assignment_notification">Assignment Notification</string>
     <string name="log_out">Log Out</string>
     <string name="about">About</string>
+    <string name="service">Service</string>
+    <string name="salary">salary</string>
+    <string name="notification">Notification</string>
+    <string name="others">others</string>
+    <string name="assignment">Assignment</string>
+    <string name="academy">Academy</string>
+    <string name="extra">Extra</string>
 </resources>
