@@ -49,4 +49,7 @@
     <string name="os_exam_declared_in_next_week">OS exam declared in next week</string>
     <string name="_08_50am">08:50am</string>
     <string name="assignment_notification">Assignment Notification</string>
+    <string name="password">password</string>
+    <string name="username">username</string>
+    <string name="login">login</string>
 </resources>
