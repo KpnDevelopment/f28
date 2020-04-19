@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.example.androidnav.Adapter.Acdmynotification;
+import com.example.androidnav.Adapter.Acdmy_notification_adapter;
 import com.example.androidnav.R;
 
 /**
@@ -20,7 +20,7 @@ import com.example.androidnav.R;
 public class AcademyFragment extends Fragment {
     private RecyclerView acdamynotify;
     private LinearLayout acadmylayout;
-    private Acdmynotification adapter_ac;
+    private Acdmy_notification_adapter adapter_ac;
 
     public AcademyFragment() {
         // Required empty public constructor
@@ -38,7 +38,7 @@ public class AcademyFragment extends Fragment {
         LinearLayoutManager Lmgr = new LinearLayoutManager(getContext());
         RecyclerView.LayoutManager recylmgr=Lmgr;
         acdamynotify.setLayoutManager(recylmgr);
-        adapter_ac=new Acdmynotification(getContext());
+        adapter_ac=new Acdmy_notification_adapter(getContext());
         acdamynotify.setAdapter(adapter_ac);
         return view;
 

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
-        android:id="@+id/calllog"
+        android:id="@+id/examlinear"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:focusable="true"
@@ -20,13 +19,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:orientation="vertical">
-
 
             <ImageView
                 android:id="@+id/icon"
@@ -34,78 +31,76 @@
                 android:layout_height="50dp"
                 android:layout_centerVertical="true"
                 android:layout_margin="5dp"
-                android:src="@android:drawable/ic_input_get"
+                android:src="@android:drawable/ic_dialog_email"
                 android:tint="@android:color/holo_red_dark"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/icon"
-                android:orientation="horizontal"
-                android:weightSum="10">
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginBottom="5dp"
-                    android:orientation="vertical">
+                    android:layout_toRightOf="@id/icon"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="vertical">
+
 
                     <TextView
-                        android:id="@+id/group"
+                        android:id="@+id/examtxt"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
                         android:layout_marginBottom="2dp"
-                        android:text="@string/polytechinic_acdamy"
+                        android:text="@string/operating_system"
                         android:textColor="@android:color/black"
-                        android:textSize="15sp" />
-
+                        android:textSize="15sp"/>
                     <TextView
-                        android:id="@+id/notifdetails"
+                        android:id="@+id/examdetails"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/group"
+                        android:layout_below="@+id/examtxt"
                         android:layout_marginBottom="2dp"
                         android:autoSizeMaxTextSize="20sp"
-                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeMinTextSize="12dp"
                         android:autoSizeStepGranularity="2sp"
                         android:autoSizeTextType="uniform"
                         android:lineSpacingExtra="8sp"
-                        android:text="@string/your_politechnic_classes_condected_in_online"
-                        android:textColor="@color/colorPrimaryDark" />
+                        android:text="OS exam "
+                        android:textColor="@color/colorPrimaryDark"/>
 
-                    <RelativeLayout
+                <RelativeLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="8">
+                    <TextView
+                        android:id="@+id/dateexam"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginRight="10dp"
-                        android:layout_weight="8">
+                        android:paddingTop="5dp"
+                        android:text="@string/_08_50am"
+                        android:textSize="11sp"/>
 
-                        <TextView
-                            android:id="@+id/date"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:paddingTop="5dp"
-                            android:text="@string/_08_34_pm"
-                            android:textSize="11sp" />
-                    </RelativeLayout>
 
+                </RelativeLayout>
+                    </LinearLayout>
                 </LinearLayout>
-            </LinearLayout>
-
         </RelativeLayout>
 
-    </LinearLayout>
 
+    </LinearLayout>
     <View
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
-        android:layout_below="@+id/calllog"
+        android:layout_below="@+id/examlinear"
         android:background="@color/colorAccent"
-        app:layout_constraintBottom_toBottomOf="@+id/calllog"
+        app:layout_constraintBottom_toBottomOf="@+id/examlinear"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
+        app:layout_constraintStart_toStartOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

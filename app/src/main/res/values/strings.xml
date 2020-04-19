@@ -40,4 +40,13 @@
     <string name="admno">AdmNo</string>
     <string name="No_data">No data</string>
     <string name="district">District</string>
+    <string name="polytechinic_acdamy">Polytechinic_acdamy</string>
+    <string name="your_politechnic_classes_scondected_in_online">Your Politechnic classes scondected in online</string>
+    <string name="_08_34_pm">08:34 PM</string>
+    <string name="your_politechnic_classes_condected_in_online">Your_politechnic_classes_condected_in_online</string>
+    <string name="dc_exam">Dc_Exam</string>
+    <string name="operating_system">Operating System</string>
+    <string name="os_exam_declared_in_next_week">OS exam declared in next week</string>
+    <string name="_08_50am">08:50am</string>
+    <string name="assignment_notification">Assignment Notification</string>
 </resources>
