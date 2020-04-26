@@ -6,32 +6,30 @@
     android:background="@drawable/background"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Activity.Activity_card">
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/card_icorn"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:src="@drawable/userpic"
-        tools:ignore="MissingConstraints" />
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/card_icorn"
+        app:layout_constraintStart_toStartOf="parent">
 
     <RelativeLayout
         android:id="@+id/relative_layt"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
->
+        android:layout_marginTop="10dp">
 
-
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/card_icorn"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/userpic" />
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="25dp"
             android:orientation="vertical"
+            android:layout_below="@+id/card_icorn"
             android:weightSum="2">
 
             <TableRow
@@ -46,7 +44,7 @@
                 <androidx.cardview.widget.CardView
                     android:id="@+id/assigment_btn"
                     android:layout_width="0dp"
-                    android:layout_height="50dp"
+                    android:layout_height="150dp"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
                     android:clickable="true"
@@ -65,7 +63,7 @@
                 <androidx.cardview.widget.CardView
                     android:id="@+id/exam_btn"
                     android:layout_width="0dp"
-                    android:layout_height="50dp"
+                    android:layout_height="150dp"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
                     android:clickable="true"
@@ -95,7 +93,7 @@
                 <androidx.cardview.widget.CardView
                     android:id="@+id/acadamy_btn"
                     android:layout_width="0dp"
-                    android:layout_height="50dp"
+                    android:layout_height="150dp"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
                     android:clickable="true"
@@ -116,7 +114,7 @@
                 <androidx.cardview.widget.CardView
                     android:id="@+id/insert_profile"
                     android:layout_width="0dp"
-                    android:layout_height="50dp"
+                    android:layout_height="150dp"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
                     android:clickable="true"
@@ -146,7 +144,7 @@
                 <androidx.cardview.widget.CardView
                     android:id="@+id/settings_btn"
                     android:layout_width="0dp"
-                    android:layout_height="50dp"
+                    android:layout_height="150dp"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
                     android:clickable="true"
@@ -168,7 +166,7 @@
                 <androidx.cardview.widget.CardView
                     android:id="@+id/extra_btn"
                     android:layout_width="0dp"
-                    android:layout_height="50dp"
+                    android:layout_height="150dp"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
                     android:clickable="true"
@@ -193,5 +191,5 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </RelativeLayout>
-
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
