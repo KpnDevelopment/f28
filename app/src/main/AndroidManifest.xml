@@ -9,13 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.extra_view_activity"/>
+        <activity android:name=".Activity.admin_manage"></activity>
+        <activity android:name=".Activity.academy_activity" />
+        <activity android:name=".Activity.manage_activity" />
         <activity android:name=".Activity.settings_view_activity" />
         <activity android:name=".Activity.add_view_activity" />
-        <activity android:name=".Activity.academy_view_activity" />
+        <activity android:name=".Activity.material_view_activity" />
         <activity android:name=".Activity.exam_view_activity" />
         <activity android:name=".Activity.assingment_view_activity" />
-        <activity android:name=".Activity.Activity_card" >
+        <activity android:name=".Activity.Activity_card">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login_page" />
-        <activity android:name=".Activity.MainActivity"/>
+        <activity android:name=".Activity.MainActivity" />
     </application>
 
 </manifest>

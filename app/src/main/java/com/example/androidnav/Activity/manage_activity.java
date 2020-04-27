@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.androidnav.R;
 
-public class academy_view_activity extends AppCompatActivity {
+public class manage_activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_academy_view_activity);
+        setContentView(R.layout.activity_manage_activity);
     }
 }
