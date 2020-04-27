@@ -12,7 +12,6 @@
         <activity android:name=".Activity.admin_manage"></activity>
         <activity android:name=".Activity.academy_activity" />
         <activity android:name=".Activity.manage_activity" />
-        <activity android:name=".Activity.extra_view_activity" />
         <activity android:name=".Activity.settings_view_activity" />
         <activity android:name=".Activity.add_view_activity" />
         <activity android:name=".Activity.material_view_activity" />
