@@ -56,7 +56,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:drawableTop="@drawable/assignment0"
-                        android:text="@string/assignment"
+                        android:text="@string/class_txt"
                         android:textColor="@android:color/black" />
                 </androidx.cardview.widget.CardView>
 
