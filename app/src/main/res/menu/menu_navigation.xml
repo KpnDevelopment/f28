@@ -7,12 +7,12 @@
 
     <item
         android:id="@+id/assignment"
-        android:title="@string/nvassignment"
+        android:title="Class"
         android:icon="@drawable/assignment0"/>
     <item
         android:id="@+id/exam"
-        android:title="@string/nvexam"
-        android:icon="@drawable/examicorn0"/>
+        android:title="Material"
+        android:icon="@drawable/icon_book"/>
     <item
         android:id="@+id/academy"
         android:title="@string/nvacademy"

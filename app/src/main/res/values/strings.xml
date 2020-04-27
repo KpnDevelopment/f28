@@ -60,4 +60,7 @@
     <string name="extra">Extra</string>
     <string name="add_admin">Add Admin</string>
     <string name="manage">Manage</string>
+    <string name="study_material">Study material</string>
+    <string name="class">class</string>
+    <string name="class_txt">Class</string>
 </resources>
