@@ -7,7 +7,8 @@
     tools:context=".Activity.assingment_view_activity"
     android:background="@drawable/background">
 
-    <EditText
+    <TextView
+        android:id="@+id/assign_txt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -15,4 +16,31 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/assign_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:hint="type message here"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/assign_txt" />
+
+    <Button
+        android:id="@+id/assign_sel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/assign_edt"
+        android:text="select files"
+        android:gravity="center" />
+    <Button
+        android:id="@+id/assign_upl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/assign_sel"
+        android:text="upload/send"
+        android:gravity="center"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

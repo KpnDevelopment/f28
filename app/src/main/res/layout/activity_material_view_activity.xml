@@ -7,12 +7,39 @@
     tools:context=".Activity.material_view_activity"
     android:background="@drawable/background">
 
-    <EditText
+    <TextView
+        android:id="@+id/met_txt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/materials"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/met_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:hint="type message here"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/met_txt" />
+
+    <Button
+        android:id="@+id/met_sel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/met_edt"
+        android:text="select files"
+        android:gravity="center" />
+    <Button
+        android:id="@+id/met_upl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/met_sel"
+        android:text="upload"
+        android:gravity="center"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
