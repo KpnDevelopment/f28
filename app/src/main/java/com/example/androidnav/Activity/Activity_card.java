@@ -10,7 +10,7 @@ import android.view.View;
 import com.example.androidnav.R;
 
 public class Activity_card extends AppCompatActivity {
-CardView assignment_card,exam_card,academy_card,add_card,settings_card,extra_card;
+CardView assignment_card,exam_card,academy_card,add_card,settings_card,extra_card,;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
