@@ -91,7 +91,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/frstrow">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/acadamy_btn"
+                    android:id="@+id/studybtn"
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="8dp"
@@ -104,9 +104,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:drawableTop="@drawable/accadamyicorn0"
+                        android:drawableTop="@drawable/icon_book"
                         android:drawableTint="@color/cardview_dark_background"
-                        android:text="@string/academy"
+                        android:text="Metirial"
                         android:textColor="@android:color/black" />
 
                 </androidx.cardview.widget.CardView>
@@ -134,6 +134,7 @@
             </TableRow>
 
             <TableRow
+                android:id="@+id/thirdrow"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:weightSum="2"
@@ -178,9 +179,64 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:drawableTop="@drawable/accadamyicorn0"
+                        android:drawableTint="@color/cardview_dark_background"
+                        android:text="@string/academy"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp" />
+
+                </androidx.cardview.widget.CardView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/thirdrow">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/Adadmin_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:drawableTop="@android:drawable/ic_menu_edit"
                         android:drawableTint="@color/cardview_dark_background"
-                        android:text="@string/extra"
+                        android:text="@string/manage"
+                        android:textColor="@android:color/black" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/manage_Btn"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:drawableTop="@drawable/icorn_addprofile48"
+                        android:drawableTint="@color/cardview_dark_background"
+                        android:text="@string/add_admin"
                         android:textColor="@android:color/black"
                         android:textSize="12sp" />
 

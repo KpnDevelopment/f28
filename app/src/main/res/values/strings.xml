@@ -58,4 +58,6 @@
     <string name="assignment">Assignment</string>
     <string name="academy">Academy</string>
     <string name="extra">Extra</string>
+    <string name="add_admin">Add Admin</string>
+    <string name="manage">Manage</string>
 </resources>
