@@ -33,13 +33,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/met_edt"
         android:text="select files"
-        android:gravity="center" />
+        android:gravity="center"
+        style="?android:attr/borderlessButtonStyle"/>
     <Button
         android:id="@+id/met_upl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/met_sel"
         android:text="upload"
-        android:gravity="center"/>
+        android:gravity="center"
+        style="?android:attr/borderlessButtonStyle"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
