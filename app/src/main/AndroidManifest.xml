@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.admin_manage"></activity>
+        <activity android:name=".Recycler_view_activity"></activity>
+        <activity android:name=".Activity.admin_manage" />
         <activity android:name=".Activity.academy_activity" />
         <activity android:name=".Activity.manage_activity" />
         <activity android:name=".Activity.settings_view_activity" />

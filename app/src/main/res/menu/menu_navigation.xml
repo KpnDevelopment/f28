@@ -7,11 +7,11 @@
 
     <item
         android:id="@+id/assignment"
-        android:title="@string/classss"
+        android:title="classss"
         android:icon="@drawable/assignment0"/>
     <item
         android:id="@+id/exam"
-        android:title="@string/material"
+        android:title="material"
         android:icon="@drawable/icon_book"/>
     <item
         android:id="@+id/academy"

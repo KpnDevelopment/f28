@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.androidnav.R;
+import com.example.androidnav.Recycler_view_activity;
 
 public class Activity_card extends AppCompatActivity {
 CardView assignment_card,exam_card,material_card,add_card,settings_card,academy_card,manage,add_admin;
@@ -34,7 +35,8 @@ CardView assignment_card,exam_card,material_card,add_card,settings_card,academy_
         exam_card.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),exam_view_activity.class));
+//                startActivity(new Intent(getApplicationContext(),exam_view_activity.class));
+                startActivity(new Intent(getApplicationContext(), Recycler_view_activity.class));
             }
         });
         material_card.setOnClickListener(new View.OnClickListener() {
